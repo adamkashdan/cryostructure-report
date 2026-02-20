@@ -3,9 +3,9 @@
 New Script: cryostructure_analysis.py - Analyzes permafrost core microcryostructures
 
 Splits the 3-panel image (A, B, C)
-Extracts texture features (intensity, gradients, entropy)
-Detects ice lenses and layering patterns
-Compares all three cryostructure types
+1. Extracts texture features (intensity, gradients, entropy)
+2. Detects ice lenses and layering patterns
+3. Compares all three cryostructure types
 
 ## Outputs Generated:
 Comprehensive visualization - 5-row analysis showing original images, grayscale, edge detection, ice lens detection, and color distributions
