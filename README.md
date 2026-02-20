@@ -1,6 +1,6 @@
 # cryostructure-report
 
-New Script: cryostructure_analysis.py - Analyzes permafrost core micro cryostructures
+New Script: cryostructure_analysis.py - Analyzes permafrost core microcryostructures
 
 Splits the 3-panel image (A, B, C)
 Extracts texture features (intensity, gradients, entropy)
