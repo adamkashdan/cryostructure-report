@@ -404,12 +404,12 @@ def main():
     
     # Initialize analyzer
     print("Loading cryostructure image...")
-    analyzer = CryostructureAnalyzer('/mnt/user-data/uploads/saj270182-fig-0005-m.jpg')
+    analyzer = CryostructureAnalyzer('/content/sample_data/Utqiagvik_2022.png')
     
     # Generate comprehensive visualization
     print("\nGenerating comprehensive analysis...")
     fig1 = analyzer.visualize_comprehensive_analysis()
-    plt.savefig('/home/claude/cryostructure_comprehensive.png', dpi=300, bbox_inches='tight', facecolor='white')
+    plt.savefig('/content/sample_data/cryostructure_comprehensive.png', dpi=300, bbox_inches='tight', facecolor='white')
     print("✓ Saved: cryostructure_comprehensive.png")
     
     # Compare features
@@ -418,18 +418,18 @@ def main():
     
     # Create feature comparison plot
     fig2 = analyzer.create_feature_comparison_plot(features_df)
-    plt.savefig('/home/claude/cryostructure_features.png', dpi=300, bbox_inches='tight', facecolor='white')
+    plt.savefig('/content/sample_data/cryostructure_features.png', dpi=300, bbox_inches='tight', facecolor='white')
     print("✓ Saved: cryostructure_features.png")
     
     # Save feature data
-    features_df.to_csv('/home/claude/cryostructure_features.csv', index=False)
+    features_df.to_csv('/content/sample_data/cryostructure_features.csv', index=False)
     print("✓ Saved: cryostructure_features.csv")
     
     # Generate report
     print("\nGenerating analysis report...")
     report = analyzer.generate_report()
     
-    with open('/home/claude/cryostructure_report.txt', 'w') as f:
+    with open('/content/sample_data/cryostructure_report.txt', 'w') as f:
         f.write(report)
     print("✓ Saved: cryostructure_report.txt")
     
