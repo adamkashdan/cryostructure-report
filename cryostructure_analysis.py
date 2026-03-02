@@ -13,6 +13,7 @@ Soil Sci. Soc. Am. J. 2026;90:e70182. https://doi.org/10.1002/saj2.70182
 Fig. 5 Micro cryostructures: (A) Micro-layered lenticular from the Yukon Territory, Canada, near the town of Beaver Creek (127–131 cm
 from the surface), Image: M. Andersen; (B) micro-lenticular cryostructure near Galbraith Lake, Alaska (186–190 cm), Image: M. Andersen; (C)
 micro-suspended cryostructure from the Willow Unit, NPR-A (89–93 cm), Image: M. Sousa.
+
 """
 
 import numpy as np
