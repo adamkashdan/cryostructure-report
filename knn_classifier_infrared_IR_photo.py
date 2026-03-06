@@ -25,7 +25,7 @@ def calculate_visible_ice_content(image_path):
     total_pixels = binary_mask.size
     ice_content_percentage = (ice_pixels / total_pixels) * 100
 
-    # 5. Create Visualization (similar to the 'Yellow' layers in the video at [00:41:05])
+    # 5. Create Visualization (similar to the 'Yellow' layers in the video at [Video IGS Halle seminar 00:41:05])
     result_vis = img.copy()
     result_vis[binary_mask == 0] = [0, 255, 255] # Highlight detected ice in Yellow
 
