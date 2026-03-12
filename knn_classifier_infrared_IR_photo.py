@@ -6,7 +6,7 @@ import pandas as pd
 def calculate_visible_ice_content(image_path):
     # 1. Load the image
     img = cv2.imread(image_path)
-    # Convert to Grayscale to mimic the IR intensity approach used by Danielle Halle
+    # Convert to Grayscale to mimic the IR intensity approach used by Danielle Halle [Video IGS seminar]
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
     # 2. Enhance Contrast (Similar to the IR camera settings)
