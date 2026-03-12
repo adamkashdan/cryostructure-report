@@ -32,7 +32,7 @@ def calculate_visible_ice_content(image_path):
     return ice_content_percentage, result_vis
 
 # Execute
-file_path = '/content/sample_data/Utqiagvik_2022.jpg'
+file_path = '/content/sample_data/Devon_Ice_Cap_2023.jpg'
 ice_percent, visual_map = calculate_visible_ice_content(file_path)
 
 print(f"--- Analysis based on Halle (2023) Method ---")
